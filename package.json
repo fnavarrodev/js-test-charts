@@ -1,0 +1,57 @@
+{
+  "name": "marfeel-charts",
+  "version": "1.0.0",
+  "description": "Marfeel Charts",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "karma start",
+    "start": "webpack-dashboard -c magenta -- webpack-dev-server --config ./tools/webpack.config.js --env=dev --progress --profile --colors",
+    "build": "webpack --config ./tools/webpack.config.js --env=prd --progress --profile --colors"
+  },
+  "keywords": [
+    "es6",
+    "babel",
+    "webpack",
+    "jasmine",
+    "karma"
+  ],
+  "author": "Francesc Navarro (fnavarro@debelop.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fnavarrodev/marfeel-charts/issues"
+  },
+  "homepage": "https://github.com/fnavarrodev/marfeel-charts#readme",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "axios-mock-adapter": "^1.15.0",
+    "babel-core": "^6.24.1",
+    "babel-istanbul": "^0.12.2",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-friendly-formatter": "^2.0.7",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "eslint-watch": "^3.1.0",
+    "istanbul-instrumenter-loader": "^2.0.0",
+    "jasmine-core": "^3.2.1",
+    "karma": "^3.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-webpack": "^3.0.5",
+    "uglifyjs-webpack-plugin": "1.0.0-beta.2",
+    "webpack": "^2.4.1",
+    "webpack-dashboard": "^0.3.0",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "@types/c3": "^0.6.2",
+    "c3": "^0.6.7"
+  }
+}

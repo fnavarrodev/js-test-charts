@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    height: 100vh;
+}
+
+.charts {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.chartCard {
+    display: inline-block;
+    width: 290px;
+    border-bottom: 2px solid #e5e5e5;
+    padding: 0 0 12px 0;
+    margin: 5px 35px;
+}
+
+.graph {
+    position: relative;
+}
+
+.middleInfo{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 54px;
+    margin: 0 auto;
+    width: 142px;
+    overflow: hidden;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.chartName {
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #b1b1b1;
+}
+
+.chartAmount {
+    font-size: 18px;
+}
+
+.chartDevicesInfo {
+    -webkit-box-pack: space-between;
+    -moz-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    -o-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-flex-wrap: nowrap;
+    -moz-flex-wrap: nowrap;
+    -o-flex-wrap: nowrap;
+    -ms-flex-wrap: none;
+    flex-wrap: nowrap;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.device {
+    display: inline-block;
+}
+
+.firstDevice {
+    text-align: left;
+}
+
+.chartDeviceName {
+    margin: 0 0 5px 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.chartDeviceAmount {
+}
+
+.chartDeviceAmount span {
+    font-size: 14px;
+}
+
+.chartDeviceAmount span:nth-child(1) {
+    margin: 0 10px 0 0;
+    color: #8d8d8d;
+}
+.chartDeviceAmount span:nth-child(2) {
+    margin: 0;
+    color: #bababa;
+}
+
+.secondDevice {
+    text-align: right;
+}
+
+.c3-chart-arc text {
+    display: none;
+}

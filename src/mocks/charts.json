@@ -1,0 +1,68 @@
+[
+    {
+        "name": "revenue",
+        "amount": "200000",
+        "type": "money",
+        "currency": "EUR",
+        "currencySymbol": "€",
+        "devices": [{
+            "name": "tablet",
+            "percentage": "60",
+            "amount": "120000",
+            "type": "money",
+            "currency": "EUR",
+            "currencySymbol": "€",
+            "hexColor": "#8fd333"
+        },
+        {
+            "name": "smartphone",
+            "percentage": "40",
+            "amount": "80000",
+            "type": "money",
+            "currency": "EUR",
+            "currencySymbol": "€",
+            "hexColor": "#426f01"
+        }],
+        "historyAmounts": ["100000", "110000", "109000", "111000", "110000", "125000", "123000", "125000", "120000"]
+    },
+    {
+        "name": "impressions",
+        "amount": "50000000",
+        "type": "users",
+        "devices": [{
+            "name": "tablet",
+            "percentage": "40",
+            "amount": "20000000",
+            "type": "users",
+            "hexColor": "#71cce7"
+        },
+        {
+            "name": "smartphone",
+            "percentage": "60",
+            "amount": "30000000",
+            "type": "users",
+            "hexColor": "#507180"
+        }],
+        "historyAmounts": ["80000000", "70000000", "75000000", "65000000", "70000000", "63000000", "60000000", "55000000", "50000000"]
+    },
+    {
+        "name": "visits",
+        "amount": "600000000",
+        "type": "users",
+        "devices": [{
+            "name": "tablet",
+            "percentage": "80",
+            "amount": "480000000",
+            "type": "users",
+            "hexColor": "#eec300"
+        },
+        {
+            "name": "smartphone",
+            "percentage": "20",
+            "amount": "120000000",
+            "type": "users",
+            "hexColor": "#c1580f"
+        }],
+        "historyAmounts": ["600000000", "670000000", "635000000", "640000000", "666000000", "610000000", "620000000", "636000000", "660000000"]
+    }
+]
