@@ -4,7 +4,10 @@ const BaseLayoutView = {
             <header></header>
             <main>
                 <article class="content">
-                    <section class="charts" id="charts"></section>
+                    <section class="charts">
+                        <div class="siema siemaChart" id="charts">
+                        </div>
+                    </section>
                 </article>
             </main>
             <footer></footer>
