@@ -1,4 +1,4 @@
-# Marfeel Charts
+# JS Charts with CS3
 Javascript Test.
 
 ## usage

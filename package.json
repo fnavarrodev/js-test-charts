@@ -1,7 +1,7 @@
 {
-  "name": "marfeel-charts",
+  "name": "js-charts",
   "version": "1.0.0",
-  "description": "Marfeel Charts",
+  "description": "JS Charts with CS3",
   "main": "dist/app.js",
   "scripts": {
     "test": "karma start",
@@ -18,9 +18,9 @@
   "author": "Francesc Navarro (fnavarro@debelop.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fnavarrodev/marfeel-charts/issues"
+    "url": "https://github.com/fnavarrodev/js-test-charts/issues"
   },
-  "homepage": "https://github.com/fnavarrodev/marfeel-charts#readme",
+  "homepage": "https://github.com/fnavarrodev/js-test-charts#readme",
   "devDependencies": {
     "axios": "^0.18.0",
     "axios-mock-adapter": "^1.15.0",
