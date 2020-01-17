@@ -6,7 +6,8 @@
   "scripts": {
     "test": "karma start",
     "start": "webpack-dashboard -c magenta -- webpack-dev-server --config ./tools/webpack.config.js --env=dev --progress --profile --colors",
-    "build": "webpack --config ./tools/webpack.config.js --env=prd --progress --profile --colors"
+    "build": "webpack --config ./tools/webpack.config.js --env=prd --progress --profile --colors",
+    "all": "yarn; yarn build"
   },
   "keywords": [
     "es6",
@@ -46,6 +47,7 @@
     "karma-webpack": "^3.0.5",
     "uglifyjs-webpack-plugin": "1.0.0-beta.2",
     "webpack": "^2.4.1",
+    "webpack-cli": "^3.3.10",
     "webpack-dashboard": "^0.3.0",
     "webpack-dev-server": "^2.4.2",
     "webpack-merge": "^4.1.0"
